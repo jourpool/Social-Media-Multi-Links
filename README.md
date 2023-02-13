@@ -1,6 +1,5 @@
 # Social Media Multi-link
 
-![](https://caba.ng/img/logo-cabang.png)
 Branch Out Your Socials.
 
 ------------
