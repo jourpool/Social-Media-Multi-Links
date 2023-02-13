@@ -1,0 +1,29 @@
+body {
+    background-color: #222629;
+}
+
+ul li {
+    color: #fff;
+    background-color: #85c332;
+    border: solid 1px #618930;
+    border-bottom: solid 3px #618930;
+}
+
+ul li:active {
+    background-color: #7eb52e;
+    border: solid 1px #618930;
+    border-top: solid 3px #618930;
+}
+
+#header {
+    color: #999999;
+    border-bottom: solid 2px #3b4d25;
+}
+
+#footer {
+    background-color: #222629;;
+}
+
+#footer a {
+    background-image: url("../img/logo-cabang-light.png");
+}

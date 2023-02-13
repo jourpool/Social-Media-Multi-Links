@@ -1,0 +1,21 @@
+body {
+    background-color: #fafafa;
+}
+
+ul li {
+    color: #262626;
+    background-color: #ffffff;
+    border: solid 1px #dbdbdb;
+    border-bottom: solid 3px #dbdbdb;
+}
+
+ul li:active {
+    background-color: #f9f9f9;
+    border: solid 1px #dbdbdb;
+    border-top: solid 3px #dbdbdb;
+}
+
+#header {
+    color: #999999;
+    border-bottom: solid 2px #dbdbdb;
+}

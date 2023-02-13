@@ -1,0 +1,32 @@
+body {
+    background-color: #f0e5d4;
+}
+
+ul li {
+    color: #030005;
+    background-color: #eec145;
+    border: solid 2px #030005;
+    border-bottom: 0;
+    box-shadow: 0 5px #030005;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+ul li:active {
+    background-color: #dfb33a;
+    border: solid 2px #030005;
+    border-bottom: 0;
+}
+
+#header {
+    color: #030005;
+    border-bottom: solid 3px #4dabac;
+}
+
+#footer {
+    background-color: #f0e5d4;;
+}
+
+#footer a {
+    background-image: url("../img/logo-cabang.png");
+}

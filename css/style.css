@@ -1,0 +1,214 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    margin-bottom: 10px;
+    background-color: #fafafa;
+    font-family: 
+        -apple-system, 
+        system-ui, 
+        BlinkMacSystemFont, 
+        "Segoe UI", 
+        Roboto, 
+        Ubuntu;
+
+    /* background-image: url(../img/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+* {
+    box-sizing: border-box;
+    user-select: none;
+    -o-user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+a {
+    color:inherit;
+    text-decoration: none;
+}
+
+a:focus {
+    outline: 0;
+}
+
+#wrapper, #spinner {
+    width: 100%;
+    height: 100%;
+}
+
+#spinner {
+    z-index: 9999;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    position: absolute;
+    background-color: #fafafa;
+}
+
+#spinner img {
+    margin: auto;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    position: absolute;
+}
+
+#container {
+    height: 100%;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 640px;
+    overflow-x: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px;
+    display: block;
+    color: #262626;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    border: solid 1px #dbdbdb;
+    border-bottom: solid 3px #dbdbdb;
+}
+
+ul li:active {
+    background-color: #f9f9f9;
+    border: solid 1px #dbdbdb;
+    border-top: solid 3px #dbdbdb;
+}
+
+ul li:focus {
+    outline: 0;
+}
+
+#header {
+    display: flex;
+    font-size: 16px;
+    color: #999999;
+    margin-bottom: 20px;
+    flex-direction: row;
+    padding-bottom: 20px;
+    justify-content: start;
+    align-items: flex-start;
+    border-bottom: solid 2px #dbdbdb;
+}
+
+.profile-pic {
+    width: 84px;
+    height: 84px;
+    flex-shrink: 0;
+    overflow: hidden;
+    position: relative;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.profile-info {
+    margin: auto 0;
+}
+
+.profile-pic:empty {
+    height: 20px !important;
+}
+
+.profile-pic img {
+    width: auto;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.profile-id {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.profile-bio {
+    font-size: 12px;
+    line-height: 14px;
+}
+
+#footer {
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+    text-align: center;
+    background-color: #fafafa;;
+}
+
+#footer a {
+    display: block;
+    width: 128px;
+    height: 29px;
+    background-image: url("../img/logo-cabang.png");
+    text-align: center;
+    margin: auto;
+    opacity: 50%;
+}
+
+#spinner img {
+    /* -webkit-animation: breathing 1s ease-out infinite normal;
+    animation: breathing 1s ease-out infinite normal; */
+    -webkit-font-smoothing: antialiased;
+    opacity: 25%;
+}
+
+@-webkit-keyframes breathing {
+    0% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+
+    25% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    60% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+
+    100% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+}
+
+@keyframes breathing {
+    0% {
+        -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+
+    25% {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+
+    60% {
+        -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+
+    100% {
+        -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+}
